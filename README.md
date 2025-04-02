@@ -1,14 +1,24 @@
 # bRAG AI: Pioneering Retrieval-Augmented Fine-Tuning for Code LLMs
 
-### Overview
+## Overview
 
-**[bRAG AI](https://bragai.tech)** redefines the boundaries of code-centric language models by blending cutting-edge Retrieval-Augmented Generation (RAG) techniques with parameter-efficient fine-tuning. Tailored for dynamic and evolving software ecosystems, bRAG AI leverages advanced strategies such as Low-Rank Adaptation (LoRA) and Fill-In-The-Middle (FIM) training to deliver unmatched domain-specific adaptability and precision.
+**[bRAG AI](https://bragai.dev)** redefines the boundaries of code-centric language models by blending cutting-edge Retrieval-Augmented Generation (RAG) techniques with parameter-efficient fine-tuning. Tailored for dynamic and evolving software ecosystems, bRAG AI leverages advanced strategies such as Low-Rank Adaptation (LoRA) and Fill-In-The-Middle (FIM) training to deliver unmatched domain-specific adaptability and precision.
 
-## Video Demo
+### Video Demo
 
 [(Shortened - 9 minutes) Technical Video on bRAGAI [edited]](https://bragai.s3.us-east-1.amazonaws.com/bRAGAI+%5Bedited%5D+Final+Video.m4v)
 
 [(Full 17 minutes) Techincal Video on bRAGAI [uncut]](https://bragai.s3.us-east-1.amazonaws.com/bRAGAI+Final+Video.mp4)
+
+### Research Paper
+
+Explore the technical foundations of bRAG AI in our detailed research paper:
+
+- **Title:** bRAG AI: Retrieval-Augmented Fine-Tuning for Code LLMs
+- **Author:** Taha H. Ababou
+- **Affiliation:** Boston University
+
+[Download the Research Paper (PDF)](./docs/bRAGAI_Final_Paper.pdf)
 
 ## Key Features
 
@@ -61,16 +71,6 @@ pip install -r requirements.txt
 │       └── train.py                # Fine-tuning script
 ```
 
-## Research Paper
-
-Explore the technical foundations of bRAG AI in our detailed research paper:
-
-- **Title:** bRAG AI: Retrieval-Augmented Fine-Tuning for Code LLMs
-- **Author:** Taha H. Ababou
-- **Affiliation:** Boston University
-
-[Download the Research Paper (PDF)](./docs/bRAGAI_Final_Paper.pdf)
-
 ## How to Cite
 
 If bRAG AI contributes to your research, please use the following citation:
@@ -84,19 +84,11 @@ If bRAG AI contributes to your research, please use the following citation:
 }
 ```
 
-## Future Directions
+<!-- ## Future Directions
 
 bRAG AI represents a significant leap forward, but we’re just getting started. Upcoming enhancements include:
 
-- **Dynamic Retrieval Optimization:** Implement smarter, adaptive retrievers to further refine performance.
-- **Multi-Modal Applications:** Extend RAG capabilities to support fields like healthcare, finance, and education.
-- **Integrated Fine-Tuning:** Develop synchronized fine-tuning for both retrieval systems and LLMs to improve synergy.
-
-## Join Us
-
-We’re on a mission to revolutionize code LLMs. If you’re interested in contributing, collaborating, or simply learning more, we’d love to hear from you. Reach out via [our website](https://bragai.tech) or explore the repository today!
-
----
-
-**bRAG AI: Empowering Developers, One Line of Code at a Time.**
-
+- **Dynamic Retrieval Optimization:** Implement smarter, adaptive retrievers to refine performance further.
+- **Multi-Modal Applications:** Extend RAG capabilities to support healthcare, finance, and education.
+- **Integrated Fine-Tuning:** Develop synchronized fine-tuning for retrieval systems and LLMs to improve synergy.
+-->
