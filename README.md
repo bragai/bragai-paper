@@ -33,10 +33,10 @@ Get started with bRAG AI in a few simple steps:
 
 ```bash
 # Clone the repository
-git clone https://github.com/bRAGAI/bragai
+git clone https://github.com/bragai/bragai-paper
 
 # Navigate to the project directory
-cd bragai
+cd bragai-paper
 
 # Install dependencies
 pip install -r requirements.txt
